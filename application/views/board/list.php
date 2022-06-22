@@ -2,13 +2,10 @@
 <html lang="en">
 <?php include_once "application/views/template/head.php"; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+<!-- 
+    http://localhost/board/list
+    board = 1차 주소값, list = 2차 주소값(메소드 실행)
+-->
 <body>
     <h1>리스트</h1>
     <table>
