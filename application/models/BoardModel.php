@@ -9,11 +9,11 @@ class BoardModel extends Model {
         (title, ctnt, i_user)
         VALUES
         (:title, :ctnt, :i_user)";
-         $stmt = $this->pdo->prepare($sql);
-         $stmt->bindvalue(":title",$param["title"]);
-         $stmt->bindvalue(":ctnt",$param["ctnt"]);
-         $stmt->bindvalue(":i_user",$param["i_user"]);
-         $stmt->execute();
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->bindvalue(":title",$param["title"]);
+        $stmt->bindvalue(":ctnt",$param["ctnt"]);
+        $stmt->bindvalue(":i_user",$param["i_user"]);
+        $stmt->execute();
     }
 
     public function selBoardList() {
